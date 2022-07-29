@@ -38,6 +38,7 @@ export function UsersTable() {
       {/* <div className="App"> */}
         <div
           className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg;"
+		  style={{"padding" :"20px"}}
         >
           <table class="min-w-full  divide-y divide-gray-200 "  style={{ width: "100%",
 		  
@@ -92,12 +93,12 @@ export function UsersTable() {
                   <td>{user.telephone}</td>
                   <td>{user.mail}</td>
 
-                  <td>
+                  <td  style={{textAlign:"center"}}>
                     <EditUser user={user} />
                   </td>
 
-                  <td>
-                    {" "}
+                  <td style={{textAlign:"center"}}>
+                  
                     <DeleteUser id={user.id} />
                   </td>
                 </tr>
