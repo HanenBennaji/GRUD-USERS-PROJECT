@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header--style{
+  flex: auto;
+flex: initial;
+flex: none;
+justify-items: center;
+flex-wrap: wrap;
+background: rgb(27, 187, 78);
+color: aliceblue;
+border-width: 6px;
+
+}
+.text--style{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  color: antiquewhite;
+  
+}
+.button--style{
+  
+ 
+  
+  background: transparent;
+   border: 1px solid rgba(241, 242, 244, 0.992);
+    border-radius: 6px;
+    color: rgb(235, 244, 239);
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    margin-left: 90%;
+    
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+     
+  }
+  .App {
+    width: 100%;
+    height: 100vh;
+    border: 10%;
+    border-color: black;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .App {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+    
+    table {
+    border: 2px solid forestgreen;
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    }
+    
+    th {
+    border-bottom: 5px solid black;
+    padding: 15px;
+    text-align: left;
+   
+    border: 5px solid black;
+
+    }
+    
+    td {
+      border-bottom: 5px solid black;
+    text-align: center;
+    padding: 15px;
+    text-align: left;
+    border: 5px solid black;
+    }
+    
